@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Local databases & environment
+*.env
+!.env.example
+*.db
+*.db-journal
+*.db.tmp
+*.csv.tmp
+backend/storage/*.db
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+*.log
